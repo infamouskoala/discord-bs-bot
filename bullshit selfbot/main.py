@@ -33,7 +33,7 @@ async def on_message(content):
         print(f"{red}NEW MESSAGE{white}")
         print(f"{cyan}[+]{white}{content.author} dmed you : {content.content}")
         id = content.channel.id #maybe idk
-        await client.get_channel(id).send(f"{message}\n||coded with love by https://github.com/infamouskoala||")
+        await client.get_channel(id).send(f"{message}\n||coded with love by https://github.com/infamous-koala||")
         print(f"{green}[-]{white} I sent : {message}")
 #run
 client.run(token, bot=False)
